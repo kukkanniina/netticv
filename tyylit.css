@@ -13,6 +13,11 @@ header {
     font-size: 30px;
     font-weight: bold;
 }
+<style>
+    p {
+        text-align: center;
+    }
+</style>
 
 main {
     margin: 20px;
