@@ -12,6 +12,7 @@
             font-family: Georgia, serif;
             text-align: center;
             line-height: 1.6;
+            margin: 0;
         }
         header {
             background-color: #4682B4;
@@ -21,6 +22,9 @@
         }
         main {
             margin: 20px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
         }
         nav a {
             color: #FFFFFF;
@@ -28,19 +32,46 @@
             font-size: 16px;
             margin: 10px;
             display: inline-block;
+            padding: 10px;
+            background-color: #4682B4;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #5A9BD5;
         }
         img {
             max-width: 200px;
             margin-top: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border: 5px solid;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border: 5px solid #FFFFFF;
             border-radius: 8px;
-            border-image: linear-gradient(45deg, #FFFFFF, #FFFFFF) 1;
+            transition: transform 0.3s ease;
+        }
+        img:hover {
+            transform: scale(1.05);
         }
         footer {
             background-color: #4682B4;
             padding: 10px;
             margin-top: 20px;
+        }
+
+        /* Responsiivinen muotoilu */
+        @media (max-width: 768px) {
+            header {
+                font-size: 24px;
+            }
+            img {
+                max-width: 150px;
+            }
+            nav a {
+                font-size: 14px;
+                padding: 8px;
+            }
+            main {
+                margin: 10px;
+            }
         }
     </style>
 </head>
