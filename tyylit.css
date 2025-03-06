@@ -28,14 +28,13 @@ section {
     }
 
     img {
-        max-width: 100%;
-        height: auto;
-        margin-top: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border: 5px solid #FFFFFF;
-        border-radius: 8px;
-    }
-
+    max-width: 200px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
     main {
         margin: 10px;
     }
