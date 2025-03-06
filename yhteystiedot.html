@@ -10,25 +10,40 @@
             background-color: #ADD8E6;
             color: #FFFFFF;
             font-family: Georgia, serif;
-            text-align: center;
             margin: 0;
             padding: 0;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            justify-content: space-between; /* Tämä jakaa tilan tasaisesti */
         }
         header {
             background-color: #4682B4;
             padding: 20px;
             font-size: 30px;
             font-weight: bold;
+            text-align: center;
         }
         main {
-            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Keskittää sisällön pystysuunnassa */
+            align-items: center; /* Keskittää sisällön vaakasuunnassa */
             flex-grow: 1;
             max-width: 900px;
+            margin: auto;
         }
-        nav a, a[href^="mailto"] {
+        section p {
+            margin: 10px 0;
+        }
+        nav {
+            margin-top: 20px;
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center; /* Keskittää linkit */
+        }
+        nav a {
             color: #FFFFFF;
             text-decoration: none;
             font-size: 16px;
@@ -36,17 +51,13 @@
             display: inline-block;
             transition: color 0.3s ease;
         }
-        nav a:hover, a[href^="mailto"]:hover {
+        nav a:hover {
             color: #5A9BD5;
         }
         footer {
             background-color: #4682B4;
             padding: 10px;
             text-align: center;
-            margin-top: auto;
-        }
-        section p {
-            margin: 10px 0;
         }
     </style>
 </head>
@@ -59,11 +70,11 @@
             <p>Sähköposti: <a href="mailto:anniinapitkanen6@gmail.com">anniinapitkanen6@gmail.com</a></p>
             <p>Puhelinnumero: +358442160761</p>
         </section>
-        <nav>
-            <a href="index.html">Etusivu</a>
-            <a href="cv.html">CV</a>
-        </nav>
     </main>
+    <nav>
+        <a href="index.html">Etusivu</a>
+        <a href="cv.html">CV</a>
+    </nav>
     <footer>
         <p>&copy; 2025 Anniina Pitkänen</p>
     </footer>
