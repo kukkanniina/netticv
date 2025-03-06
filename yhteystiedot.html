@@ -21,7 +21,7 @@
         main {
             margin: 20px;
         }
-        nav a {
+        nav a, a[href^="mailto"] {
             color: #FFFFFF;
             text-decoration: none;
             font-size: 16px;
@@ -29,7 +29,7 @@
             display: inline-block;
             transition: color 0.3s ease;
         }
-        nav a:hover {
+        nav a:hover, a[href^="mailto"]:hover {
             color: #5A9BD5;
         }
         footer {
@@ -45,7 +45,7 @@
     </header>
     <main>
         <section>
-            <p>Sähköposti: <a href="mailto:anniinapitkanen6@gmail.com" style="color:#FFFFFF; transition: color 0.3s ease;">anniinapitkanen6@gmail.com</a></p>
+            <p>Sähköposti: <a href="mailto:anniinapitkanen6@gmail.com">anniinapitkanen6@gmail.com</a></p>
             <p>Puhelinnumero: +358442160761</p>
         </section>
         <nav>
