@@ -1,101 +1,94 @@
 <!DOCTYPE html>
 <html lang="fi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Anniina Pitkänen</title>
+    <title>Netti-CV - Anniina Pitkänen</title>
     <link rel="stylesheet" href="tyylit.css">
     <style>
-       body {
-    background-color: #ADD8E6;
-    color: #FFFFFF;
-    font-family: Georgia, serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #4682B4;
-    padding: 20px;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-
-main {
-    margin: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-p {
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-    line-height: 1.6;
-}
-
-h2 {
-    text-align: center;
-}
-
-nav a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 10px;
-    display: inline-block;
-}
-
-footer {
-    background-color: #4682B4;
-    padding: 10px;
-    margin-top: 20px;
-    text-align: center;
-}
+        body {
+            background-color: #ADD8E6;
+            color: #FFFFFF;
+            font-family: Georgia, serif;
+            text-align: center;
+            margin: 0;
+          padding: 0;
+        }
+        header {
+            background-color: #4682B4;
+            padding: 20px;
+            font-size: 30px;
+            font-weight: bold;
+          text-align: center;
+        }
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 900px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 10px;
+            display: inline-block;
+            padding: 10px;
+            border-radius: 5px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #5A9BD5;
+        }
+        img {
+            max-width: 200px;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            border: 5px solid #FFFFFF;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        footer {
+            background-color: #4682B4;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            header {
+                font-size: 20px;
+            }
+            img {
+                max-width: 150px;
+            }
+            nav a {
+                font-size: 14px;
+                padding: 8px;
+            }
+            main {
+                margin: 10px;
+            }
+        }
     </style>
 </head>
-
 <body>
     <header>
-        <h1>CV</h1>
+        <h1>Tervetuloa!</h1>
     </header>
-
     <main>
         <section>
-            <h2>Koulutus</h2>
-            <p>Datanomi - Business College Helsinki<br> 2017 - 2020</p>
-        </section>
-        <section>
-            <h2>Työkokemus</h2>
-            <p>3 vuoden työkokemus IT-asiantuntijan tehtävissä, joka sisälsi:<br>
-                Käyttöjärjestelmien asennus ja ylläpito sekä niiden toiminnan tarkastus.<br>
-                Laitteiden päivitykset ja ohjelmistojen asennukset.<br>
-                Sekä tikettijärjestelmän käyttö.</p>
-        </section>
-        <section>
-            <h2>Taidot</h2>
-            <p>Käyttöjärjestelmät: Windows 10 ja 11.<br>
-                IT-infrastruktuurin hallinta: Laitteiden asennus ja ylläpito.<br>
-                Asiakaspalvelu: Tikettijärjestelmä.</p>
-        </section>
-        <section>
-            <h2>Kielitaito</h2>
-            <p>Suomi - Äidinkieli<br> Englanti - Hyvä</p>
+            <p>Nimeni on Anniina Pitkänen ja tämä on minun netti-CV:ni.<br>
+                Ammatiltani olen datanomi ja minulta löytyy 3 vuoden työkokemus IT-asiantuntijana.</p>
+            <img src="anniinapitkanen.jpg" alt="Anniina Pitkänen">
         </section>
         <nav>
-            <a href="index.html">Etusivu</a>
+            <a href="cv.html">CV</a>
             <a href="yhteystiedot.html">Yhteystiedot</a>
         </nav>
     </main>
-
     <footer>
         <p>&copy; 2025 Anniina Pitkänen</p>
     </footer>
 </body>
-
 </html>
