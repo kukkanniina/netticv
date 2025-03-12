@@ -59,7 +59,13 @@ nav a {
 nav a:hover {
     color: #4b2e18;
 }
+a[href^="mailto"] {
+    color: #000000;
+}
 
+a[href^="mailto"]:hover {
+    color: #555555;
+}
 img {
     max-width: 200px;
     margin-top: 20px;
