@@ -24,16 +24,17 @@ main {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px;
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
+    margin-top: -20px;
 }
 
 section {
-    margin-top: 35px;
+    margin-top: 10px;
 }
 
 section p {
@@ -60,6 +61,7 @@ nav a {
 nav a:hover {
     color: #4b2e18;
 }
+
 a[href^="mailto"] {
     color: #000000;
 }
@@ -67,6 +69,7 @@ a[href^="mailto"] {
 a[href^="mailto"]:hover {
     color: #555555;
 }
+
 img {
     max-width: 200px;
     margin-top: 20px;
