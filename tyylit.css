@@ -26,28 +26,6 @@ section {
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-    header {
-        font-size: 24px;
-    }
-
-    img {
-        max-width: 200px;
-        margin-top: 20px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-        border: 5px solid #FFFFFF;
-        transition: transform 0.3s ease;
-    }
-
-    main {
-        margin: 10px;
-    }
-
-    nav a {
-        font-size: 14px;
-    }
-}
-
 nav {
     margin-top: 20px;
 }
@@ -70,4 +48,27 @@ footer {
     background-color: #4682B4;
     padding: 10px;
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 20px;
+    }
+    
+    img {
+        max-width: 200px;
+        margin-top: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        border: 5px solid #FFFFFF;
+        transition: transform 0.3s ease;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    main {
+        margin: 10px;
+    }
 }
