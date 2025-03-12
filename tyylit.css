@@ -38,7 +38,8 @@ section p {
     font-size: 18px;
 }
 nav {
-    margin-top: 20px;
+     margin-top: auto;
+    padding-bottom: 20px;
 }
 nav a {
     color: #030000;
