@@ -27,7 +27,6 @@ main {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
-    width: 100%;
 }
 section {
     margin-top: 10px;
@@ -94,20 +93,5 @@ p {
     }
     main {
         margin: 10px;
-    }
-}
-@media (min-width: 769px) {
-    main {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    section {
-        width: 45%;
-        margin: 10px 0;
-    }
-    nav a {
-        font-size: 20px;
-        padding: 12px;
     }
 }
