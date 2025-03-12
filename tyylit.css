@@ -63,7 +63,7 @@ a[href^="mailto"]:hover, a[href^="tel"]:hover {
     color: #555555;
 }
 img {
-    max-width: 100%;
+    max-width: 200px;
     width: 100%;
     height: auto;
     margin-top: 20px;
@@ -85,7 +85,7 @@ p {
         font-size: 20px;
     }
     img {
-        max-width: 90%;
+        max-width: 200px;
     }
     nav a {
         font-size: 14px;
@@ -93,5 +93,15 @@ p {
     }
     main {
         margin: 10px;
+    }
+}
+@media (min-width: 769px) {
+    main {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    section {
+        width: 45%;
     }
 }
