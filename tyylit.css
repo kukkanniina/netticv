@@ -41,8 +41,8 @@ section p {
 }
 
 nav {
-    margin-top: 30px;
-    padding-bottom: 30px;
+    margin-top: auto;
+    padding-bottom: 10px;
     text-align: center;
     width: 100%;
 }
