@@ -29,6 +29,7 @@ main {
     margin: 0 auto;
     text-align: center;
     margin-top: -20px;
+    min-height: calc(100vh - 100px);
 }
 section {
     margin-top: 10px;
