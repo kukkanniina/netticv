@@ -40,14 +40,14 @@ section p {
     font-size: 18px;
 }
 
-nav {
+nav.footer-links {
     margin-top: auto;
-    padding-bottom: 0px;
+    padding: 10px 0;
     text-align: center;
-    width: 100%;
+    background-color: #3e2c1c;
 }
 
-nav a {
+nav.footer-links a {
     color: #030000;
     text-decoration: none;
     font-size: 18px;
@@ -59,7 +59,7 @@ nav a {
     transition: color 0.3s ease;
 }
 
-nav a:hover {
+nav.footer-links a:hover {
     color: #4b2e18;
 }
 
@@ -102,7 +102,7 @@ p {
         max-width: 150px;
     }
 
-    nav a {
+    nav.footer-links a {
         font-size: 14px;
         padding: 8px;
     }
