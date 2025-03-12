@@ -1,3 +1,4 @@
+/* Perusasettelu */
 body {
     background-color: #ab9b6d;
     color: #030000;
@@ -106,7 +107,6 @@ p {
     img {
         max-width: 150px;
     }
-
     nav a {
         font-size: 1rem;
         padding: 8px;
@@ -131,16 +131,12 @@ p {
     main {
         max-width: 1100px;
     }
+
     header {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
+
     nav a {
-        font-size: 1.5rem;
-    }
-    section p {
-        font-size: 1.4rem;
-    }
-    footer {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
